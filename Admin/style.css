@@ -1,0 +1,107 @@
+.animation_why_class_1 {
+  animation: spin 8s linear infinite;
+  background-image: linear-gradient(to right, blue, #20e3b2);
+  width: 70px;
+  height: 88rem;
+  z-index: 1;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animation_why_class_2 {
+  animation: spin_2 8s linear infinite;
+  background-image: linear-gradient(to right, rgb(17, 0, 255), #26f69f);
+  width: 70px;
+  height: 88rem;
+  z-index: 1;
+}
+
+@keyframes spin_2 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.scrolling-buttons {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: none; /* Tạm dừng animation */
+}
+
+.scrolling-buttons button {
+  display: inline-block;
+  margin-right: 20px; /* Khoảng cách giữa các nút */
+}
+
+
+.-animation_rotate-360{
+  animation: spin_2_2 3s linear infinite;
+  filter: blur(40px);
+
+}
+
+
+@keyframes spin_2_2 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+.animation_rotate-360{
+  animation: spin_p_1 3s linear infinite;
+  filter: blur(40px);
+
+}
+
+
+@keyframes spin_p_1 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.a__hover:hover > .active_a_ {
+  width: 100%;
+}
+
+.active_a_{
+  width: 0px;
+  transition: width 0.5s;
+}
+
+.a__hover:hover{
+  color: rgb(255, 255, 255);
+}
+
+.a__hover{
+  transition: color 0.25s;
+}
+
+
+body::-webkit-scrollbar-thumb{
+  background-image: linear-gradient(-45deg, #1e06f8, #04128f);
+  border-radius: 50px;
+}
+
+body::-webkit-scrollbar{
+  width: 5px;
+}

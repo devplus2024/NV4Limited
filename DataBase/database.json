@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Admin",
+      "email": "anpham08112009@gmail.com",
+      "password": "admin"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "email": "user2@example.com",
+      "password": "password2"
+    },
+    {
+      "id": "5902",
+      "email": "truonganphamquang@gmail.com",
+      "username": "dev",
+      "password": "dev2024"
+    },
+    {
+      "id": "dc4c",
+      "email": "truonganphamquang@gmail.com",
+      "username": "dev",
+      "password": "dev2024"
+    },
+    {
+      "id": "b363",
+      "email": "anpham08112009@gmail.com",
+      "username": "Admin",
+      "password": "admin"
+    },
+    {
+      "id": "8b7b",
+      "email": "truonganphamquang@gmail.com",
+      "username": "Admin",
+      "password": "admin"
+    }
+  ]
+}

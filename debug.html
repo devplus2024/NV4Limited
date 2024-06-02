@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Detection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        #myDiv {
+            width: 100%;
+            background-color: lightblue;
+            padding: 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            z-index: 1000; /* Đảm bảo div luôn nằm trên */
+            transition: background-color 0.3s ease;
+        }
+        .content {
+            padding-top: 100px; /* Đảm bảo nội dung không bị che bởi div cố định */
+            height: 2000px; /* Nội dung dài để có thể cuộn */
+        }
+        .scrolled-into-view {
+            background-color: yellow; /* Màu nền thay đổi khi nội dung chạm vào */
+        }
+    </style>
+</head>
+<body>
+    <div id="myDiv">Div này sẽ thay đổi màu khi có nội dung chạm vào</div>
+    <div class="content" id="content">
+        <p>Nội dung bên dưới div cố định. Cuộn xuống để xem hiệu ứng.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue. Donec dui arcu, scelerisque at, volutpat vitae, volutpat eget, elit. In commodo lacus et eros hendrerit, eget tempor risus malesuada. Curabitur non nisl nec nisi gravida condimentum. Nulla facilisi. Fusce tincidunt justo velit, ac malesuada justo pulvinar ac. Ut auctor accumsan eros nec vestibulum. Aenean luctus gravida neque sit amet viverra. Morbi sollicitudin diam ut ipsum varius, non varius nunc tincidunt. Donec sit amet dictum neque, nec sollicitudin nisi.</p>
+    </div>
+
+    <script>
+        // Lấy phần tử div cần thêm class
+        const myDiv = document.getElementById('myDiv');
+        const content = document.getElementById('content');
+
+        // Hàm xử lý sự kiện cuộn
+        function handleScroll() {
+            // Kiểm tra nếu content chạm vào myDiv
+            const contentRect = content.getBoundingClientRect();
+            const myDivRect = myDiv.getBoundingClientRect();
+
+            if (contentRect.top <= myDivRect.bottom) {
+                myDiv.classList.add('scrolled-into-view');
+            } else {
+                myDiv.classList.remove('scrolled-into-view');
+            }
+        }
+
+        // Lắng nghe sự kiện cuộn
+        window.addEventListener('scroll', handleScroll);
+
+        // Kiểm tra ngay khi tải trang
+        handleScroll();
+    </script>
+</body>
+</html>
