@@ -1,0 +1,64 @@
+.Ggsdsd{
+  border: 1px solid red;
+  width: 380px;
+  height: 281px;
+  margin: 0 auto;
+  margin-top:60px;
+  position: relative;
+  transition: all 0.25s;
+  overflow: hidden;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+  
+}
+button{
+  background-color: aqua;
+
+}
+
+.cvcv{
+  transition: all 0.25s;
+  transform: none;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  justify-content: flex-end;
+  flex: 1 1;
+  z-index: 2;
+  transition: all 0.25s;
+  transform: none;
+
+
+}
+.Ggsdsd:hover > .cvcv{
+  position: absolute;
+  transition: all 0.25s;
+  transform: translateY(-34px) translateZ(0px);
+ 
+}
+
+
+.Ggsdsd:hover > .cvcv .hh {
+  transition: all 0.25s;
+  opacity: 1;
+}
+
+.gggg{
+  position: absolute;
+  transform: translateY(100%) translateZ(0px);
+  top: auto;
+  inset: 2rem;
+  padding-top: 9rem;
+  transition: all 0.25s;
+  opacity: 0;
+}
+
+.Ggsdsd:hover > .gggg{
+  transform: translateY(40px) translateZ(0px);
+  transition: all 0.25s;
+  opacity: 1;
+}
+
+ 

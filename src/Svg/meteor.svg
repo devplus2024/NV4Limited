@@ -1,0 +1,23 @@
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+        <defs>
+            <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="ffflurry-grad" gradientTransform="rotate(270)">
+                <stop stop-color="hsl(0, 0%, 0%)" stop-opacity="1" offset="0%"></stop>
+                <stop stop-color="hsl(0, 0%, 100%)" stop-opacity="1" offset="45%"></stop>
+                <stop stop-color="hsl(0, 0%, 82%)" stop-opacity="1" offset="100%"></stop>
+            </linearGradient>
+        </defs>
+        <rect width="100%" height="100%" fill="hsl(0, 0%, 0%)"></rect>
+        <g fill="url(#ffflurry-grad)">
+            <rect class="meteor" width="119" height="1" x="124.5" y="351.5" rx="0.5" opacity="0.19"></rect>
+            <rect class="meteor" width="130" height="1" x="385" y="170.5" rx="0.5" opacity="0.92"></rect>
+            <rect class="meteor" width="102" height="1" x="208" y="595.5" rx="0.5" opacity="0.83"></rect>
+            <rect class="meteor" width="82" height="1" x="41" y="645.5" rx="0.5" opacity="0.21"></rect>
+            <rect class="meteor" width="97" height="1" x="200.5" y="101.5" rx="0.5" opacity="0.28"></rect>
+            <rect class="meteor" width="125" height="1" x="448.5" y="466.5" rx="0.5" opacity="0.75"></rect>
+            <rect class="meteor" width="99" height="1" x="650.5" y="645.5" rx="0.5" opacity="0.89"></rect>
+            <rect class="meteor" width="90" height="1" x="398" y="708.5" rx="0.5" opacity="0.38"></rect>
+            <rect class="meteor" width="110" height="1" x="632" y="305.5" rx="0.5" opacity="0.74"></rect>
+            <rect class="meteor" width="80" height="1" x="29" y="135.5" rx="0.5" opacity="0.79"></rect>
+            <rect class="meteor" width="84" height="1" x="635" y="83.5" rx="0.5" opacity="0.22"></rect>
+        </g>
+    </svg>
