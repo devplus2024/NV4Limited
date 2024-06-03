@@ -97,7 +97,11 @@
 				<div
 					class="xl:inline-block md:hidden sm:hidden lg:hidden max-[468px]:hidden">
 
-					<a href="index.html" class="text-3xl">
+					<input type="radio" id="home" name="tab"
+						onclick="showContent('homeContent')">
+
+					<label for="home"
+						class="a__hover relative hover:text-white select-none">
 						<svg
 							class=" text-4xl p-px rounded text-white"
 							xmlns="http://www.w3.org/2000/svg"
@@ -113,7 +117,7 @@
 							<polyline points="16 18 22 12 16 6"></polyline>
 							<polyline points="8 6 2 12 8 18"></polyline>
 						</svg>
-					</a>
+					</label>
 				</div>
 				<div
 					class="flex   gap-[1.5rem] items-center relative sm:ml-[3rem] xl:ml-0 md:ml-[3rem] lg:ml-[3rem] max-[468px]:ml-[1.5rem]">
@@ -284,7 +288,7 @@
 						</div>
 						<div
 							class="w-[20rem] text-[#6c6c6c] text-sm bg-[#1a1a1a] pl-[1rem] h-[2.3rem] flex items-center rounded-lg "
-							style="border:1px solid rgb(0, 0, 0);">
+							style="border:1px solid rgb(0, 0, 0);" onclick="show_search()">
 							Search Your KeyWord
 						</div>
 						<div
@@ -532,7 +536,8 @@
 			<section>
 
 				<div id="homeContent" class="content mt-[56px] active">
-					<div class="bg-black text-white fixed w-full h-[624px]  opacity-100 "
+					<div class="bg-black text-white fixed w-full h-[624px]   opacity-100 "
+						id="home_scroll"
 						style="overflow-y: auto;">
 						<div
 							class="flex  justify-center h-[624px] items-center  gap-4 relative container_vhome">
@@ -540,6 +545,14 @@
 							<!-- <div class="absolute " style="z-index:-1;">
 								<img class=" " src="./src/Svg/Hexagon.svg" alt>
 							</div> -->
+							<div
+								class="absolute hidden w-[40rem] h-[30rem] bg-[black] rounded-xl px-[2rem]"
+								id="search_table"
+								style="border: 1px solid rgb(53, 53, 53);z-index:2;">
+								<input type="text"
+									class="w-full mt-[2rem] h-[3rem] focus:border-none focus:ring-[#202020] border-none rounded-lg bg-[#202020] ">
+
+							</div>
 
 							<div class="flex gap-[5rem] flex-col justify-center items-center">
 								<div class="flex flex-col gap-[1rem] items-center">

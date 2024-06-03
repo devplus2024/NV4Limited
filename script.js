@@ -381,7 +381,6 @@ function showContent(id) {
 // var activeContent = document.getElementById("blogContent");
 // activeContent.classList.add("active");
 
-
 function show_password() {
   var input_password = document.getElementById("eye_icon");
   var show_password_type = document.getElementById("show_password_type");
@@ -802,5 +801,16 @@ function view_video() {
   } else {
     view_content.classList.remove("hidden");
     view_content.classList.add("block");
+  }
+}
+
+function show_search() {
+  show_search_menu = document.getElementById("search_table");
+  if (show_search_menu.classList.contains("hidden")) {
+    show_search_menu.classList.remove("hidden");
+    show_search_menu.classList.add("block");
+  } else if (show_search_menu.classList.contains("block")) {
+    show_search_menu.classList.remove("block");
+    show_search_menu.classList.add("hidden");
   }
 }
