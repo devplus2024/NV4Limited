@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en" class="dark:[color-scheme:dark]">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            NV4 Website
+        </title>
+        <meta property="og:title" content="NV4 Limited">
+        <meta property="og:description"
+            content="A website Learning Programming">
+        <meta property="og:image"
+            content="https://developplus2024.github.io/NV4Limited/src/Image/banner.jpg">
+        <meta property="og:url"
+            content="https://developplus2024.github.io/NV4Limited/">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=REM:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
+        <meta property="og:type" content="website">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="NV4 Limited">
+        <meta name="twitter:description"
+            content="A website Learning Programming By Leader">
+        <meta name="twitter:image"
+            content="https://developplus2024.github.io/NV4Limited/src/Image/banner.jpg">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="./node_modules/apexcharts/dist/apexcharts.css">
+        <link rel="stylesheet" href="../src/output.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+            rel="stylesheet" />
+
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap"
+            rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap"
+            rel="stylesheet">
+        <script
+            src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="../style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Comfortaa:wght@300..700&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Comfortaa:wght@300..700&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet">
+
+        <link rel="stylesheet" type='text/css'
+            href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Comfortaa:wght@300..700&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet">
+        <script
+            src="https://cdn.jsdelivr.net/npm/microsoft-translator@3/dist/microsoft-translator.min.js"></script>
+
+    </head>
+    <body class="h-screen relative bg-black no-scroll dark:[color-scheme:dark]">
+        <div>
+            <audio class="hidden" autoplay loop
+                src="./src/Audio/DaiDienHauSinhTuKienLouisRemix-VuongNgocManh-14125736.mp3"></audio>
+        </div>
+        <div class="fixed top-0 flex justify-center w-full  "
+            style="z-index: 3;">
+            <div
+                class="flex bg-[#09090b99] sm:items-start  xl:justify-between px-[2rem] xl:flex-row sm:flex-col md:flex-col   absolute w-full  gap-[6rem] py-3  xl:items-center div_nav_flex "
+                id="fixedDiv"
+                style="z-index: 4;box-shadow: 0 0 0 1px #202020;">
+                <div
+                    class="xl:inline-block md:hidden sm:hidden lg:hidden max-[468px]:hidden">
+
+                    <input type="radio" name="tab"
+                        onclick="showContent('homeContent')">
+
+                    <label for="home"
+                        class="a__hover  relative hover:text-white select-none">
+                        <svg
+                            class=" text-4xl p-px rounded text-white"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="30"
+                            height="30"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="h-6 w-6">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                    </label>
+                </div>
+                <div
+                    class="flex   gap-[1.5rem] items-center relative sm:ml-[3rem] xl:ml-0 md:ml-[3rem] lg:ml-[3rem] max-[468px]:ml-[1.5rem]">
+
+                    <div
+                        class="gap-[1rem] text-sm  xl:flex-row sm:flex-col md:flex-col max-[468px]:flex-col"
+                        style="color: rgb(172, 172, 172);">
+                        <div
+                            class="cursor-pointer xl:hidden md:block lg:block sm:block"
+                            onclick="show_menu_nav()">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24"
+                                viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round"
+                                class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2"><path
+                                    stroke="none" d="M0 0h24v24H0z"
+                                    fill="none" /><path
+                                    d="M4 6l16 0" /><path d="M4 12l16 0" /><path
+                                    d="M4 18l16 0" /></svg>
+                        </div>
+                        <div
+                            class="xl:gap-[20px] xl:items-center sm:items-start max-[648px]:gap-[0.5rem] max-[648px]:hidden text-sm   xl:flex xl:flex-row  md:flex-col sm:hidden "
+                            style="font-family: Geist-Medium, sans-serif;"
+                            id="menu_nav">
+
+                            <input type="radio" id="home" name="tab"
+                                onclick="showContent('homeContent')" checked>
+
+                            <label for="home"
+                                class="a__hover relative hover:text-white select-none">
+                                Home
+                            </label>
+
+                            <!-- <div class="a__hover relative hover:text-sky-500 select-none">
+								<div class=" active_a_ absolute -bottom-[2px]"
+									style="background-color: #ffffff;"></div>
+								<button id="scrollBtn" class="  cursor-pointer">Pricing</button>
+							</div> -->
+                            <input type="radio" id="pricing" name="tab"
+                                onclick="showContent('pricingContent')">
+                            <label for="pricing" class="hidden">
+                                <div
+                                    class="a__hover  relative  hover:text-white cursor-pointer select-none">
+
+                                    <span class="  ">Pricing</span>
+
+                                </div>
+                            </label>
+                            <div class="hidden">
+                                <input type="radio" id="contact" name="tab"
+                                    onclick="showContent('contactContent')">
+                                <label for="contact">
+                                    <div
+                                        class="a__hover relative   hover:text-white cursor-pointer select-none">
+                                        <span
+                                            class=" cursor-pointer">Contact</span>
+
+                                    </div>
+                                </label>
+                                </div class>
+                                <div class="hidden">
+                                    <input type="radio" id="about" name="tab"
+                                        onclick="showContent('aboutContent')">
+                                    <label for="about">
+                                        <div
+                                            class="a__hover  relative hover:text-white cursor-pointer select-none">
+                                            <span
+                                                class="  cursor-pointer select-none">ABoutUs</span>
+
+                                        </div>
+                                    </label>
+                                    </div class=>
+                                    <input type="radio" id="feature" name="tab"
+                                        onclick="showContent('featureContent')">
+                                    <label for="feature">
+                                        <div
+                                            class="a__hover relative hover:text-white cursor-pointer select-none">
+                                            <span
+                                                class="  cursor-pointer">Feature</span>
+
+                                        </div>
+                                    </label>
+
+                                    <input type="radio" id="product" name="tab"
+                                        onclick="showContent('productContent')">
+                                    <label for="product" class="hidden">
+                                        <div
+                                            class="a__hover hidden relative hover:text-white cursor-pointer select-none">
+                                            <span class="  ">Product</span>
+
+                                        </div>
+                                    </label>
+                                    <input type="radio" id="blog" name="tab"
+                                        onclick="showContent('blogContent')">
+                                    <label for="blog" class="bg-none">
+                                        <div
+                                            class="a__hover  relative hover:text-white cursor-pointer select-none">
+                                            <a hred="./playground/"
+                                                class>Blog</a>
+
+                                        </div>
+                                    </label>
+
+                                    <div
+                                        class="a__hover  relative hover:text-white cursor-pointer select-none">
+                                        <span class>PlayGround</span>
+                                    </div>
+                                    <input type="radio" id="exercise" name="tab"
+                                        onclick="showContent('exerciseContent')">
+                                    <label for="exercise">
+                                        <div
+                                            class="a__hover  relative hover:text-white cursor-pointer select-none">
+                                            <span
+                                                class="  cursor-pointer">Exercise</span>
+
+                                        </div>
+                                    </label>
+                                    <input type="radio" id="chatbox" name="tab"
+                                        onclick="showContent('chatboxContent')">
+                                    <label for="chatbox">
+                                        <div
+                                            class="a__hover hidden relative  hover:text-white cursor-pointer select-none">
+                                            <span
+                                                class="  cursor-pointer">ChatBox</span>
+
+                                        </div>
+                                    </label>
+
+                                    <div
+                                        class="subnav__list-item hidden subnav__list-item__dropdown relative hover:text-white a__hover">
+                                        <span
+                                            class="ds-paragraph__level-4 light:text-black subnav__list-item__title   rounded-md "
+                                            onclick="show_Service_menu()"
+                                            id="span_services">
+                                            Services
+                                            <svg width="8" height="5"
+                                                fill="none"
+                                                class="rotate_0_service text-white"
+                                                id="svg_service"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="m1 1 3 3 3-3"
+                                                    stroke="rgb(172, 172, 172)"
+                                                    stroke-linecap="round"
+                                                    id="stroke_service"
+                                                    stroke-linejoin="round"></path>
+                                            </svg>
+                                        </span>
+                                        <ul
+                                            class="subnav__dropdown shadow-xl subnav__dropdown_no_active"
+                                            aria-label="products"
+                                            id="Menu_service">
+                                            <li
+                                                class="subnav__dropdown-item ds-paragraph__level-4 ">
+
+                                                <a
+                                                    href="https://ionic.io/blog/tag/appflow"
+                                                    title="Appflow"
+                                                    class="appflow">
+                                                    Appflow </a>
+                                            </li>
+                                            <li
+                                                class="subnav__dropdown-item ds-paragraph__level-4 ">
+
+                                                <a
+                                                    href="https://ionic.io/blog/tag/capacitor"
+                                                    title="Capacitor"
+                                                    class="capacitor">
+                                                    Capacitor </a>
+                                            </li>
+                                            <li
+                                                class="subnav__dropdown-item ds-paragraph__level-4 active">
+
+                                                <a
+                                                    href="https://ionic.io/blog/tag/framework"
+                                                    title="Framework"
+                                                    class="framework">
+                                                    Framework </a>
+                                            </li>
+                                            <li
+                                                class="subnav__dropdown-item ds-paragraph__level-4 ">
+
+                                                <a
+                                                    href="https://ionic.io/blog/tag/ionic-enterprise-sdk"
+                                                    title="Ionic Enterprise SDK"
+                                                    class="ionic-enterprise-sdk">
+                                                    Enterprise SDK </a>
+                                            </li>
+                                            <li
+                                                class="subnav__dropdown-item ds-paragraph__level-4 ">
+
+                                                <a
+                                                    href="https://ionic.io/blog/tag/portals"
+                                                    title="Portals"
+                                                    class="portals">
+                                                    Portals </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div
+                            class="w-[20rem] text-[#6c6c6c] text-sm bg-[#09090b] pl-[1rem] h-[2.3rem] flex items-center rounded-lg "
+                            style="border:1px solid rgb(48, 48, 48);"
+                            onclick="show_search()">
+                            Search Your KeyWord
+                        </div>
+                        <div
+                            class="xl:flex lg:hidden light:text-black dark:text-white   gap-2 xl:items-center  sm:hidden md:hidden max-[468px]:hidden  ">
+                            <a
+                                href="https://www.facebook.com/profile.php?id=61554760410819">
+                                <div
+                                    class="flex gap-2 text-sm px-1 items-center py-2 justify-center hover:bg-[#1f1e1e]    rounded-md">
+                                    <i
+                                        class="ri-facebook-circle-fill text-[1.8rem]"></i>
+
+                                </div>
+                            </a>
+                            <a href="https://twitter.com/DeveloperPlus24">
+                                <div
+                                    class="flex gap-2 items-center text-sm py-2 justify-center hover:bg-[#1f1e1e]  px-1 rounded-md">
+                                    <i
+                                        class="ri-twitter-fill  text-[1.8rem]"></i>
+
+                                </div>
+                            </a>
+                            <a href="https://github.com/DevelopPlus2024">
+                                <div
+                                    class="flex gap-2 items-center text-sm py-2 justify-center hover:bg-[#1f1e1e] px-1 rounded-md">
+                                    <i
+                                        class="ri-github-fill text-[&#xEDCA] text-[1.8rem]"></i>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div
+                            class=" gap-[20px] xl:hidden md:hidden sm:hidden lg:hidden max-[468px]:hidden  ">
+                            <div
+                                class="rounded-md  flex relative justify-center items-center">
+                                <input type="radio" id="login" name="tab"
+                                    onclick="showContent('loginContent')">
+                                <label for="login">
+                                    <div
+                                        class="a__hover bg-white flex text-black items-center justify-center relative rounded-md text-md   px-4 h-[30px] w-[80px] light:text-black dark:text-black  hover:bg-[#f1f1f1] cursor-pointer select-none transition-all duration-300">
+                                        Login
+                                    </div>
+                                </label>
+
+                            </div>
+                            <div
+                                class="rounded-md  flex relative justify-center items-centers ">
+                                <input type="radio" id="signup" name="tab"
+                                    onclick="showContent('signupContent')">
+                                <label for="signup">
+                                    <div
+                                        class="a__hover flex items-center justify-center rounded-md text-md   text-white px-3 h-[30px] button_signup cursor-pointer select-none"
+                                        style="box-shadow: 0 0 0 0.5px rgb(53, 53, 53);">
+                                        Sign Up
+
+                                    </div>
+
+                                </label>
+                            </div>
+                        </div>
+                        <div
+                            class="cursor-pointer relative max-[468px]:hidden xl:hidden md:hidden sm:hidden lg:hidden">
+                            <div class="rounded-full h-[2rem] w-[2rem]"
+                                onclick="show_profile()"
+                                style="background-image: linear-gradient(blue , #2cccff);">
+                            </div>
+                            <div class="absolute right-0 top-[4rem] hidden_1 "
+                                id="profile_menu">
+                                <div
+                                    class="w-[18rem] flex gap-4 py-5 flex-col items-center rounded-lg  bg- select-none text-white"
+                                    style="background-color:#272626;box-shadow: 0 0 0 1px var(--themed-border, transparent);backdrop-filter: blur(150px);">
+
+                                    <div class="flex flex-col gap-[0.5rem] ">
+                                        <div>
+                                            <p class="px-2">Admin -
+                                                Developer</p>
+                                        </div>
+                                        <div
+                                            class="flex-col flex gap-[0.5rem] ">
+                                            <div
+                                                class="flex gap-[3rem] justify-between items-center rounded-md py-2 px-2 hover:bg-[#2e2e2e]">
+                                                <div class="flex gap-2">
+                                                    <svg class
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        width="24"
+                                                        height="24"
+                                                        viewBox="0 0 24 24"
+                                                        fill="currentColor"
+                                                        class="icon icon-tabler icons-tabler-filled icon-tabler-user"><path
+                                                            stroke="none"
+                                                            d="M0 0h24v24H0z"
+                                                            fill="none" /><path
+                                                            d="M12 2a5 5 0 1 1 -5 5l.005 -.217a5 5 0 0 1 4.995 -4.783z" /><path
+                                                            d="M14 14a5 5 0 0 1 5 5v1a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-1a5 5 0 0 1 5 -5h4z" /></svg>
+                                                    <p class>Edit Profiles</p>
+                                                </div>
+                                                <div>
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        width="24" height="24"
+                                                        viewBox="0 0 24 24"
+                                                        fill="none"
+                                                        stroke="currentColor"
+                                                        stroke-width="2"
+                                                        stroke-linecap="round"
+                                                        stroke-linejoin="round"
+                                                        class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path
+                                                            stroke="none"
+                                                            d="M0 0h24v24H0z"
+                                                            fill="none" /><path
+                                                            d="M9 6l6 6l-6 6" /></svg>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="flex gap-[3rem] justify-between rounded-md py-2 px-2 hover:bg-[#2e2e2e] ">
+                                                <div class="flex gap-2">
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        width="24" height="24"
+                                                        viewBox="0 0 24 24"
+                                                        fill="none"
+                                                        stroke="currentColor"
+                                                        stroke-width="2"
+                                                        stroke-linecap="round"
+                                                        stroke-linejoin="round"
+                                                        class="icon icon-tabler icons-tabler-outline icon-tabler-settings"><path
+                                                            stroke="none"
+                                                            d="M0 0h24v24H0z"
+                                                            fill="none" /><path
+                                                            d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z" /><path
+                                                            d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /></svg>
+                                                    <p class>Setting</p>
+                                                </div>
+                                                <div>
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        width="24" height="24"
+                                                        viewBox="0 0 24 24"
+                                                        fill="none"
+                                                        stroke="currentColor"
+                                                        stroke-width="2"
+                                                        stroke-linecap="round"
+                                                        stroke-linejoin="round"
+                                                        class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path
+                                                            stroke="none"
+                                                            d="M0 0h24v24H0z"
+                                                            fill="none" /><path
+                                                            d="M9 6l6 6l-6 6" /></svg>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="flex gap-[3rem] justify-between rounded-md py-2 px-2 hover:bg-[#2e2e2e] ">
+                                                <div class="flex gap-2">
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        width="24" height="24"
+                                                        viewBox="0 0 24 24"
+                                                        fill="none"
+                                                        stroke="currentColor"
+                                                        stroke-width="2"
+                                                        stroke-linecap="round"
+                                                        stroke-linejoin="round"
+                                                        class="icon icon-tabler icons-tabler-outline icon-tabler-message-2-question"><path
+                                                            stroke="none"
+                                                            d="M0 0h24v24H0z"
+                                                            fill="none" /><path
+                                                            d="M8 9h8" /><path
+                                                            d="M8 13h6" /><path
+                                                            d="M14.5 18.5l-2.5 2.5l-3 -3h-3a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v4.5" /><path
+                                                            d="M19 22v.01" /><path
+                                                            d="M19 19a2.003 2.003 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483" /></svg>
+                                                    <p class>Feedback</p>
+                                                </div>
+                                                <div>
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        width="24" height="24"
+                                                        viewBox="0 0 24 24"
+                                                        fill="none"
+                                                        stroke="currentColor"
+                                                        stroke-width="2"
+                                                        stroke-linecap="round"
+                                                        stroke-linejoin="round"
+                                                        class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path
+                                                            stroke="none"
+                                                            d="M0 0h24v24H0z"
+                                                            fill="none" /><path
+                                                            d="M9 6l6 6l-6 6" /></svg>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="flex gap-[3rem] justify-between rounded-md py-2 px-2 hover:bg-[#2e2e2e] ">
+                                                <div class="flex gap-2">
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        width="24" height="24"
+                                                        viewBox="0 0 24 24"
+                                                        fill="none"
+                                                        stroke="currentColor"
+                                                        stroke-width="2"
+                                                        stroke-linecap="round"
+                                                        stroke-linejoin="round"
+                                                        class="icon icon-tabler icons-tabler-outline icon-tabler-moon-off"><path
+                                                            stroke="none"
+                                                            d="M0 0h24v24H0z"
+                                                            fill="none" /><path
+                                                            d="M7.962 3.949a8.97 8.97 0 0 1 4.038 -.957v.008h.393a7.478 7.478 0 0 0 -2.07 3.308m-.141 3.84c.186 .823 .514 1.626 .989 2.373a7.49 7.49 0 0 0 4.586 3.268m3.893 -.11c.223 -.067 .444 -.144 .663 -.233a9.088 9.088 0 0 1 -.274 .597m-1.695 2.337a9 9 0 0 1 -12.71 -12.749" /><path
+                                                            d="M3 3l18 18" /></svg>
+                                                    <p class>Display</p>
+                                                </div>
+                                                <div>
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        width="24" height="24"
+                                                        viewBox="0 0 24 24"
+                                                        fill="none"
+                                                        stroke="currentColor"
+                                                        stroke-width="2"
+                                                        stroke-linecap="round"
+                                                        stroke-linejoin="round"
+                                                        class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path
+                                                            stroke="none"
+                                                            d="M0 0h24v24H0z"
+                                                            fill="none" /><path
+                                                            d="M9 6l6 6l-6 6" /></svg>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="flex gap-[3rem] justify-between rounded-md py-2 px-2 hover:bg-[#2e2e2e] ">
+                                                <div class="flex gap-2">
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        width="24" height="24"
+                                                        viewBox="0 0 24 24"
+                                                        fill="none"
+                                                        stroke="currentColor"
+                                                        stroke-width="2"
+                                                        stroke-linecap="round"
+                                                        stroke-linejoin="round"
+                                                        class="icon icon-tabler icons-tabler-outline icon-tabler-help"><path
+                                                            stroke="none"
+                                                            d="M0 0h24v24H0z"
+                                                            fill="none" /><path
+                                                            d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path
+                                                            d="M12 17l0 .01" /><path
+                                                            d="M12 13.5a1.5 1.5 0 0 1 1 -1.5a2.6 2.6 0 1 0 -3 -4" /></svg>
+                                                    <p class>Help & Support</p>
+                                                </div>
+                                                <div>
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        width="24" height="24"
+                                                        viewBox="0 0 24 24"
+                                                        fill="none"
+                                                        stroke="currentColor"
+                                                        stroke-width="2"
+                                                        stroke-linecap="round"
+                                                        stroke-linejoin="round"
+                                                        class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path
+                                                            stroke="none"
+                                                            d="M0 0h24v24H0z"
+                                                            fill="none" /><path
+                                                            d="M9 6l6 6l-6 6" /></svg>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="flex relative gap-[1rem]    ">
+                                                <div
+                                                    class="hover:bg-[#2e2e2e] flex gap-[3rem] justify-between py-2 px-2  rounded-md w-full"
+                                                    onclick="show_menu_languages()">
+                                                    <div class="flex gap-2">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            width="24"
+                                                            height="24"
+                                                            viewBox="0 0 24 24"
+                                                            fill="none"
+                                                            stroke="currentColor"
+                                                            stroke-width="2"
+                                                            stroke-linecap="round"
+                                                            stroke-linejoin="round"
+                                                            class="icon icon-tabler icons-tabler-outline icon-tabler-language"><path
+                                                                stroke="none"
+                                                                d="M0 0h24v24H0z"
+                                                                fill="none" /><path
+                                                                d="M4 5h7" /><path
+                                                                d="M9 3v2c0 4.418 -2.239 8 -5 8" /><path
+                                                                d="M5 9c0 2.144 2.952 3.908 6.7 4" /><path
+                                                                d="M12 20l4 -9l4 9" /><path
+                                                                d="M19.1 18h-6.2" /></svg>
+                                                        <p class>Languages</p>
+                                                    </div>
+                                                    <div>
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            width="24"
+                                                            height="24"
+                                                            viewBox="0 0 24 24"
+                                                            fill="none"
+                                                            stroke="currentColor"
+                                                            stroke-width="2"
+                                                            stroke-linecap="round"
+                                                            stroke-linejoin="round"
+                                                            class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path
+                                                                stroke="none"
+                                                                d="M0 0h24v24H0z"
+                                                                fill="none" /><path
+                                                                d="M9 6l6 6l-6 6" /></svg>
+                                                    </div>
+                                                </div>
+                                                <div id="languages_show"
+                                                    class="bg-[#272626] hidden_1 flex flex-col justify-center items-center gap-3 left-[-138px] rounded-lg absolute w-[7rem] h-[5rem]">
+                                                    <p
+                                                        onclick="translate_english()"
+                                                        class>English</p>
+                                                    <div
+                                                        style="box-shadow: inset 0 -1px 0 0 #f3f3f3;"
+                                                        class="w-[7rem] h-[1px]"></div>
+
+                                                    <p
+                                                        onclick="translateEnglishToVietnamese()">Vietnamese</p>
+
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="flex gap-[3rem] justify-between relative rounded-md py-2 px-2 hover:bg-[#2e2e2e] ">
+                                                <div class="flex gap-2">
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        width="24" height="24"
+                                                        viewBox="0 0 24 24"
+                                                        fill="none"
+                                                        stroke="currentColor"
+                                                        stroke-width="2"
+                                                        stroke-linecap="round"
+                                                        stroke-linejoin="round"
+                                                        class="icon icon-tabler icons-tabler-outline icon-tabler-logout"><path
+                                                            stroke="none"
+                                                            d="M0 0h24v24H0z"
+                                                            fill="none" /><path
+                                                            d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2" /><path
+                                                            d="M9 12h12l-3 -3" /><path
+                                                            d="M18 15l3 -3" /></svg>
+                                                    <p class>Log out</p>
+
+                                                </div>
+                                                <div>
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        width="24" height="24"
+                                                        viewBox="0 0 24 24"
+                                                        fill="none"
+                                                        stroke="currentColor"
+                                                        stroke-width="2"
+                                                        stroke-linecap="round"
+                                                        stroke-linejoin="round"
+                                                        class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path
+                                                            stroke="none"
+                                                            d="M0 0h24v24H0z"
+                                                            fill="none" /><path
+                                                            d="M9 6l6 6l-6 6" /></svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <script
+                src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+            <script
+                src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+            <script
+                src="./node_modules/datamaps/dist/datamaps.world.min.js"></script>
+            <script
+                src="./node_modules/preline/dist/preline.js"></script>
+            <script src="./node_modules/lodash/lodash.min.js"></script>
+            <script
+                src="./node_modules/apexcharts/dist/apexcharts.min.js"></script>
+            <script
+                src="https://preline.co/assets/js/hs-apexcharts-helpers.js"></script>
+
+            <script src="../script.js"></script>
+            <script
+                src="./node_modules/flowbite/dist/flowbite.min.js"></script>
+            <script
+                src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script
+                src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+            <script>
+		
+		</script>
+        </body>
+    </html>

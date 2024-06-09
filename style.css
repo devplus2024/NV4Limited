@@ -12,6 +12,99 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Geist-Black";
+  src: url("./src/Font/Geist-Black.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Geist-Medium";
+  src: url("./src/Font/Geist-Medium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Panchang-Extralight";
+  src: url("../fonts/Panchang-Extralight.woff2") format("woff2"),
+    url("../fonts/Panchang-Extralight.woff") format("woff"),
+    url("../fonts/Panchang-Extralight.ttf") format("truetype");
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Panchang-Light";
+  src: url("../fonts/Panchang-Light.woff2") format("woff2"),
+    url("../fonts/Panchang-Light.woff") format("woff"),
+    url("../fonts/Panchang-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Panchang-Regular";
+  src: url("../fonts/Panchang-Regular.woff2") format("woff2"),
+    url("../fonts/Panchang-Regular.woff") format("woff"),
+    url("../fonts/Panchang-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Panchang-Medium";
+  src: url("../fonts/Panchang-Medium.woff2") format("woff2"),
+    url("../fonts/Panchang-Medium.woff") format("woff"),
+    url("../fonts/Panchang-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Panchang-Semibold";
+  src: url("../fonts/Panchang-Semibold.woff2") format("woff2"),
+    url("../fonts/Panchang-Semibold.woff") format("woff"),
+    url("../fonts/Panchang-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Panchang-Bold";
+  src: url("./src/Font/Panchang-Bold.woff2") format("woff2"),
+    url("./src/Font/Panchang-Bold.woff") format("woff"),
+    url("./src/Font/Panchang-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Panchang-Extrabold";
+  src: url("../fonts/Panchang-Extrabold.woff2") format("woff2"),
+    url("../fonts/Panchang-Extrabold.woff") format("woff"),
+    url("../fonts/Panchang-Extrabold.ttf") format("truetype");
+  font-weight: 800;
+  font-display: swap;
+  font-style: normal;
+}
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 800.0;
+*
+* available axes:
+'wght' (range from 200.0 to 800.0
+*/
+@font-face {
+  font-family: "Panchang-Variable";
+  src: url("../fonts/Panchang-Variable.woff2") format("woff2"),
+    url("../fonts/Panchang-Variable.woff") format("woff"),
+    url("../fonts/Panchang-Variable.ttf") format("truetype");
+  font-weight: 200 800;
+  font-display: swap;
+  font-style: normal;
+}
 
 body {
   font-family: "Geist-Regular", sans-serif;
@@ -116,16 +209,6 @@ body {
 .a__hover {
   transition: color 0.5s;
   transition: all 0.25s;
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: rgb(197, 197, 197);
-  border-radius: 50px;
-  filter: blur(40px);
-}
-
-body::-webkit-scrollbar {
-  width: 10px;
 }
 
 @media only screen and (max-width: 401px) {
@@ -583,10 +666,6 @@ input[type="radio"]:checked + label {
 
 #chatboxContent {
   overflow-y: hidden; /* Ẩn thanh cuộn dọc */
-}
-
-.no-scroll {
-  overflow-y: hidden !important;
 }
 
 body {

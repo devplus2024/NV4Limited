@@ -357,25 +357,6 @@ function showContent(id) {
 
   var activeContent = document.getElementById(id);
   activeContent.classList.add("active");
-
-  if (id === "chatboxContent") {
-    document.body.classList.add("no-scroll");
-  } else if (id === "loginContent") {
-    document.body.classList.add("no-scroll");
-  } else if (id === "signupContent") {
-    document.body.classList.add("no-scroll");
-    document.body.classList.add("bg-yellow_body");
-  } else if (id === "blogContent") {
-    fixedDiv.classList.remove("bg-black");
-    fixedDiv.classList.remove("div_nav_flex");
-    fixedDiv.classList.add("div_nav_flex_blog");
-    fixedDiv.classList.add("bg-none");
-  } else {
-    fixedDiv.classList.add("div_nav_flex");
-    fixedDiv.classList.remove("div_nav_flex_blog");
-    fixedDiv.classList.add("bg-black");
-    fixedDiv.classList.remove("bg-none");
-  }
 }
 
 // var activeContent = document.getElementById("blogContent");

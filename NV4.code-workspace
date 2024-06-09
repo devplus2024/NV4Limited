@@ -1,11 +1,13 @@
 {
-	"folders": [
-		{
-			"path": "."
-		},
-		{
-			"path": "../NV4 ChatBox"
-		}
-	],
-	"settings": {}
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "../NV4 ChatBox"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "NV4 Website"
+  }
 }
